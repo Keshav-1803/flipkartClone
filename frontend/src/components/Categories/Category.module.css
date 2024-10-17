@@ -1,0 +1,52 @@
+.navigation {
+   display: flex; /* Use flexbox for horizontal layout */
+   overflow-x: auto; /* Enable horizontal scrolling */
+   white-space: nowrap; /* Prevent wrapping to a new line */
+   background-color: #ffffff; /* Background color of the navigation */
+   padding: 16px 0; /* Padding for top and bottom */
+   margin: 0; /* Removes default margin */
+   /* z-index: 10; Stack order */
+   width: 100%; /* Full width of the parent container */
+   scrollbar-width: none; /* Hide scrollbar for Firefox */
+   -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+   padding-left: 16px;
+   padding-right: 3px;
+ }
+ 
+ /* Hide scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+ .navigation::-webkit-scrollbar {
+   display: none;
+ }
+ 
+ .Category {
+   display: inline-block; /* Use inline-block to allow horizontal alignment */
+   text-decoration: none; /* Removes underline from links */
+   color: inherit; /* Inherits color from parent */
+   margin: 0 10px; /* Spacing around each category */
+   flex: 0 0 auto; /* Prevents the items from growing or shrinking */
+   width: 120px; /* Set a fixed width for each category item */
+ }
+ 
+ .linkContent {
+   text-align: center; /* Center-aligns text */
+ }
+ 
+ .imageWrapper {
+   width: 4rem; /* Fixed size for image wrapper */
+   height: 4rem; /* Fixed size for image wrapper */
+   margin: 0 auto; /* Centers the image wrapper */
+ }
+ 
+ .image {
+   width: 100%; /* Full width of the image wrapper */
+   height: 100%; /* Full height of the image wrapper */
+   object-fit: cover; /* Ensures the image covers the wrapper without distortion */
+ }
+ 
+ .linkLabel {
+   display: block; /* Displays the label as a block element */
+   margin-top: 8px; /* Space above the label */
+   font-size: 14px; /* Font size for the label */
+   color: #000; /* Color of the label */
+ }
+ 
