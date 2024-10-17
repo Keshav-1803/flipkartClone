@@ -5,8 +5,7 @@
    background-color: #ffffff; /* Background color of the navigation */
    padding: 16px 0; /* Padding for top and bottom */
    margin: 0; /* Removes default margin */
-   /* z-index: 10; Stack order */
-   width: 100%; /* Full width of the parent container */
+   max-width: 100%;
    scrollbar-width: none; /* Hide scrollbar for Firefox */
    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
    padding-left: 16px;
