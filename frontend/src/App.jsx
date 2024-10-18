@@ -8,8 +8,8 @@ export default function App() {
   return (
     <div>
        <Home/>
-       <Login/>
-       <User/>
+       {/* <Login/>
+       <User/> */}
     </div>
   )
 }
